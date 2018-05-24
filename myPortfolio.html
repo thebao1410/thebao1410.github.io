@@ -60,14 +60,41 @@
 
     <div class="container-fluid">
       <div class="row">
-      <div class="col-sm-4 portfolio-item box filter graphic"> <a href="#" class="portfolio-link">
+        <!-- test khi click vào hiện modal -->
+      <div class="col-sm-4 portfolio-item box filter graphic" data-toggle="modal" data-target="#exampleModal"> <a href="#" class="portfolio-link">
         <div class="caption">
           <div class="caption-content">
             <h3>The Shape of Design</h3>
             <h4>Branding/Graphic</h4>
           </div>
         </div>
-        <img src="images/portfolio/work-1.jpg" class="img-responsive" alt=""> </a> </div>
+        <img src="images/portfolio/work-1.jpg" class="img-responsive" alt=""> </a> 
+        <!-- phần này hiển thị nội dung modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">The Shape of Design</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                   <h5>New Branding Projects</h5>
+                        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+                        <br>
+                        Fusce dapibus, tellus ac cursus commodo, tortor mauris, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+                        <img src="images/portfolio/work-1.jpg" class="img-responsive" alt="">
+                        <img src="images/portfolio/work-2.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal close">Close</button>
+                </div>
+              </div>
+            </div>
+          </div> <!-- end của phần hiển thị nội dung modal -->
+      </div>    <!-- đây là div end của 1 item -->
+        
       <div class="col-sm-4 portfolio-item box filter web"> <a href="#" class="portfolio-link">
         <div class="caption">
           <div class="caption-content">

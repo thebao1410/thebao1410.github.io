@@ -436,9 +436,9 @@ ul li {
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
-#portfolio * {
+/* #portfolio * {
 	z-index: 2;
-}
+} */
 /*------------------------------------------------------------------------------
 	 Contact Form
 -------------------------------------------------------------------------------*/
@@ -623,6 +623,16 @@ ol.type li:hover {
 	background: #222;
 	border: 1px solid #222;
 	color: #fff;
+}
+/* .modal-backdrop{
+	display: none;
+} */
+.modal-dialog{
+	padding-top: 20%;
+}
+.modal-header .close{
+	font-size: 65px;
+	margin-top: -7% ;
 }
 /* ------------------------------------------------------------------------------
 	myBio Page
