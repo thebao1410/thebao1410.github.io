@@ -624,11 +624,12 @@ ol.type li:hover {
 	border: 1px solid #222;
 	color: #fff;
 }
-/* .modal-backdrop{
-	display: none;
-} */
+
 .modal-dialog{
 	padding-top: 20%;
+}
+.modal-content{
+	box-shadow: 0 0 0 900px rgba(0,0,0,.7);
 }
 .modal-header .close{
 	font-size: 65px;
